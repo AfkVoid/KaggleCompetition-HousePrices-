@@ -18,7 +18,7 @@ glimpse(train)
 glimpse(test)
 is.na(train)
 colSums(is.na(train))
-#Creating data partition (****WE NO LONGER NEED THIS****)(Might replace with K-Fold if time permits)
+#Creating data partition (Might replace with K-Fold if time permits)
 set.seed(222)
 random_sample <- createDataPartition(train$SalePrice,p = 0.7, list = FALSE)
 train2 <-train[random_sample,]
