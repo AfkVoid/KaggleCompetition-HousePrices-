@@ -1,1 +1,2 @@
 # KaggleCompetition-HousePrices-
+Our objective is to model the sale price of houses given a particular combination of predictor variables as accurately as possible. The methods we used were preliminary data cleaning, exploratory data analysis, data imputation via the Missing Forest package, cross validation, and linear model transformations. We were able to find a model that explains 94% of the variability in price predicted. Our final model was able to predict house prices with an error of .14213 which landed us at 2421st on the leaderboard for the kaggle competition. 
